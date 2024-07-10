@@ -1,9 +1,9 @@
+let numeroMaximo = 10;
 let numeroSecreto = generarNumeroSecreto();
 let valorInput = document.querySelector("#valorUsuario");
 let btnNuevoJuego = document.querySelector("#reiniciar");
 let listaNumerosSorteados = [];
 
-let numeroMaximo = 10;
 
 let intentos = 1;
 asignarTexto("h1", "El juego del número secreto");
